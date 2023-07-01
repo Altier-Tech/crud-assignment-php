@@ -1,5 +1,5 @@
 # CRUD Application - PHP [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
+This is a CRUD application using PHP and MySQL. It is a simple application that allows you to create, read, update and delete records from a database. It is a simple application that allows you to create, read, update and delete records from a database. 
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
