@@ -45,18 +45,20 @@ require_once 'medicines.php';
 
     <h2>Create a new medicine</h2>
 
-    <form method="post">
-        <label for="name">Name:</label>
-        <input type="text" name="name" required>
-        <br>
-        <label for="description">Description:</label>
-        <textarea name="description" required></textarea>
-        <br>
-        <label for="price">Price:</label>
-        <input type="number" name="price" required>
-        <br>
-        <input type="submit" name="create" value="Create">
-    </form>
+    <div class="form-container">
+        <form method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
+            <br>
+            <label for="description">Description:</label>
+            <textarea name="description" required></textarea>
+            <br>
+            <label for="price">Price:</label>
+            <input type="number" name="price" required>
+            <br>
+            <input type="submit" name="create" value="Create">
+        </form>
+    </div>
 
     <?php if (isset($_POST['edit'])): ?>
         <?php
