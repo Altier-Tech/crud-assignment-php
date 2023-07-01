@@ -43,6 +43,8 @@ require_once 'medicines.php';
         </tbody>
     </table>
 
+    <br><br><br>
+
     <h2>Create a new medicine</h2>
 
     <div class="form-container">
@@ -55,7 +57,6 @@ require_once 'medicines.php';
             <br>
             <label for="price">Price:</label>
             <input type="number" name="price" required>
-            <br>
             <input type="submit" name="create" value="Create">
         </form>
     </div>
