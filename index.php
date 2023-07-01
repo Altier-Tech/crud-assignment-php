@@ -9,6 +9,7 @@ require_once 'medicines.php';
 <html>
 <head>
     <title>Medicines</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <h1>Medicines</h1>
