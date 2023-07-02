@@ -1,33 +1,17 @@
 body {
-    background-color: #f9f9f9;
     font-family: Arial, sans-serif;
-}
-
-.button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    background-color: #f2f2f2;
 }
 
 h1 {
     color: #333;
     text-align: center;
-    margin-top: 50px;
-    font-size: 36px;
 }
 
 table {
     margin: 0 auto;
     border-collapse: collapse;
-    width: 100%;
-    max-width: 800px;
+    width: 80%;
 }
 
 th, td {
@@ -37,7 +21,7 @@ th, td {
 }
 
 th {
-    background-color: #af7a4c;
+    background-color: #4CAF50;
     color: white;
 }
 
@@ -46,24 +30,39 @@ tr:hover {
 }
 
 .form-container {
-    width: 100%;
-    max-width: 800px;
+    width: 50%;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-container label {
-    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
 }
 
 h2 {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-size: 24px;
     text-align: center;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
 }
 
 input[type="text"], input[type="number"], textarea {
@@ -72,20 +71,17 @@ input[type="text"], input[type="number"], textarea {
     border: none;
     margin-bottom: 20px;
     width: 100%;
-    font-size: 16px;
 }
 
 input[type="submit"] {
-    background-color: #a0af4c;
+    background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
-    font-size: 16px;
 }
 
 input[type="submit"]:hover {
-    background-color: #8b8e3e;
+    background-color: #3e8e41;
 }
