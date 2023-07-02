@@ -1,7 +1,6 @@
 <?php
-// database.php
-
-$dsn = 'mysql:host=localhost;dbname=drugs';
+// Connect to the database
+$dsn = 'mysql:host=localhost;dbname=vehicles';
 $username = 'root';
 $password = '';
 $options = array(
