@@ -9,7 +9,7 @@ require_once 'cars.php';
 <html>
 <head>
     <title>Cars</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
     <h1>Cars</h1>
