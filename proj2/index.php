@@ -43,20 +43,33 @@ require_once 'cars.php';
         </tbody>
     </table>
 
-    <h2>Create a new car</h2>
+    <button id="new-entry">New Entry</button>
 
-    <form method="post">
-        <label for="make">Make:</label>
-        <input type="text" name="make" required>
-        <br>
-        <label for="model">Model:</label>
-        <input type="text" name="model" required>
-        <br>
-        <label for="year">Year:</label>
-        <input type="number" name="year" required>
-        <br>
-        <input type="submit" name="create" value="Create">
-    </form>
+    <div id="create-form" style="display: none;">
+        <h2>Create a new car</h2>
+
+        <form method="post">
+            <label for="make">Make:</label>
+            <input type="text" name="make" required>
+            <br>
+            <label for="model">Model:</label>
+            <input type="text" name="model" required>
+            <br>
+            <label for="year">Year:</label>
+            <input type="number" name="year" required>
+            <br>
+            <input type="submit" name="create" value="Create">
+        </form>
+    </div>
+
+    <script>
+        var newEntryButton = document.getElementById('new-entry');
+        var createForm = document.getElementById('create-form');
+
+        newEntryButton.addEventListener('click', function() {
+            createForm.style.display = 'block';
+        });
+    </script>
 
     <?php if (isset($_POST['edit'])): ?>
         <?php
