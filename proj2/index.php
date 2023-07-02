@@ -43,9 +43,7 @@ require_once 'cars.php';
         </tbody>
     </table>
 
-    <button id="new-entry">New Entry</button>
-
-    <div id="create-form" style="display: none;">
+    <div id="create-form">
         <h2>Create a new car</h2>
 
         <form method="post">
@@ -61,15 +59,6 @@ require_once 'cars.php';
             <input type="submit" name="create" value="Create">
         </form>
     </div>
-
-    <script>
-        var newEntryButton = document.getElementById('new-entry');
-        var createForm = document.getElementById('create-form');
-
-        newEntryButton.addEventListener('click', function() {
-            createForm.style.display = 'block';
-        });
-    </script>
 
     <?php if (isset($_POST['edit'])): ?>
         <?php
